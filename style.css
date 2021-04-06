@@ -1,0 +1,97 @@
+/*** début reset CSS **/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** fin du reset CSS**/
+
+body {
+    background-image: url('https://www.atomix.com.au/media/2017/07/StockPhotoBanner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: rgba(216, 87, 87, 0.692)!important;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body a {
+    color:rgba(216, 87, 87, 1);
+    text-decoration: none;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main h1 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+main h1 strong {
+    font-weight: strong!important;
+    font-weight: stronger;
+}
+
+main button {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    background-color: rgb(40, 40, 82);
+    padding: 15px;
+    border-radius: 40px;
+    outline: 0;
+    border: none;
+    font-weight: strong;
+}
+
+main button a {
+    color: white;
+}
+
+footer {
+    background-color: rgb(40, 40, 82);
+}
