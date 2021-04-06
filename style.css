@@ -94,4 +94,12 @@ main button a {
 
 footer {
     background-color: rgb(40, 40, 82);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
 }
