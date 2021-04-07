@@ -62,8 +62,13 @@ body a {
     text-decoration: none;
 }
 
+header, main {
+    background-color: rgb(40, 40, 82,0.3);
+}
 main {
-    margin-top: 20px;
+    padding:90px;
+    height: 100%;
+    
 }
 
 main h1 {
@@ -101,20 +106,22 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 25px;
+    padding: 50px;
 }
 header{
     height: 20%;
-    padding: 10px;
+    padding: 30px;
     overflow: hidden;
     }
     h3 {
     font-size: 1.2em;
     float: left;
+    margin-left: 60px;
     }
     
     h4 a {
     font-size: 1em;
     float: right;
     color: white ;
+    margin-right: 50px;
     }
