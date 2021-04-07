@@ -103,3 +103,18 @@ footer {
     justify-content: space-around;
     padding: 25px;
 }
+header{
+    height: 20%;
+    padding: 10px;
+    overflow: hidden;
+    }
+    h3 {
+    font-size: 1.2em;
+    float: left;
+    }
+    
+    h4 a {
+    font-size: 1em;
+    float: right;
+    color: white ;
+    }
